@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" /> -->
+    <title>Sous Chef</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:bold,semi-bold,semi-bold-italic,light,regular">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default" style="background-color: #fff">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="navbar-specific" href="#">Home</a> <div class="navbar-brand brand-bar" id="divider"> | </div>
+          <div class="navbar-brand brand-bar" >Sous Chef </div>
+
+          <!-- <img style="width:100px;" src="logo.png"> -->
+        </div>
+      </div>
+    </nav>
+
+    <h3 id="orderItemtxt" align="center">What would You Like to Get Today?</h3>
+    <div class="container-fluid" id="Menu" align="center">
+<!-- Type in what order you want -->
+        <label>Order Name:</label><br>
+        <input type="text" name="order_name" id="orderName"> <br>
+        <br>
+        <button class="btn btn-primary" name="postReq" onClick="sendOrder()"> Submit Order</button> <br>
+        <a href="index.html" align="center" >See What the Chef Sees</a>
+<!-- when clicked, should send order to database (sendOrder()) -->
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/menuscript.js"></script>
+  </body>
+</html>

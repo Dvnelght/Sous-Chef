@@ -1,0 +1,18 @@
+StartOrderIntent start order number {orderNumber}
+StartOrderIntent start order {orderNumber}
+StartOrderIntent start {orderNumber}
+StartOrderIntent I'm starting {orderNumber}
+CompleteOrderIntent complete order {orderNumber}
+CompleteOrderIntent complete {orderNumber}
+CompleteOrderIntent {orderNumber} is done
+CompleteOrderIntent finish {orderNumber}
+AMAZON.HelpIntent what can I say
+DeleteOrderIntent delete order {orderNumber}
+DeleteOrderIntent delete {orderNumber}
+DeleteOrderIntent get rid of order {orderNumber}
+UndoOrderIntent undo order {orderNumber}
+UndoOrderIntent undo {orderNumber}
+UndoOrderIntent bring back {orderNumber}
+UndoOrderIntent bring back order {orderNumber}
+QueueSummaryIntent give me the queue summary
+AMAZON.StopIntent quit

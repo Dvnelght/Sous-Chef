@@ -1,0 +1,280 @@
+body {
+    font-family: 'Source Sans Pro', serif;
+    background-color: #F2F2F2;
+}
+
+.navbar-right {
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+.dropdown-toggle {
+    padding-top: 0 !important;
+}
+
+.navbar-toggle {
+    background-color: #5D9CEC !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+
+.collapse-complete.revised {
+    border: none;
+    background-color: transparent;
+}
+
+
+#collapse-complete {
+    color: #A9A9A9;
+}
+
+@media (max-width: 1500px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+/* Navigation Related */
+
+#navbar-specific {
+    color: #5D9CEC;
+}
+
+#divider {
+    color: #F2F2F2;
+}
+
+/* Current Order */
+
+#currentorders {
+    background-color: #E0E0E0;
+    height: 300px;
+
+}
+
+.container-fluid.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#completedorders {
+    background-color: #E0E0E0;
+    height: 300px;
+    overflow: scroll;
+}
+
+#currentorderstxt {
+    color: #A9A9A9;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#completedorderstxt {
+    color: #A9A9A9;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+.box {
+    height: 260px;
+    width: 185px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+
+.new-order {
+    background-color: #F2F2F2;
+    width: 185px;
+    height: 220px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 14pt;
+    color: #828282;
+    line-height: 2;
+    white-space: normal;
+}
+
+
+.progress-order {
+    background-color: #FFF;
+    width: 185px;
+    height: 220px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 14pt;
+    color: #828282;
+    line-height: 2;
+    white-space: normal;
+}
+
+.box-close {
+    width: 100%;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    white-space: nowrap;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+}
+
+/* Buttons */
+
+.btn.main {
+    display: block;
+}
+
+.btn.sharp {
+    border-radius:0;
+}
+
+.btn.green {
+    background-color: #8CC152;
+    color: #F2F2F2;
+}
+
+.btn.yellow{
+    background-color: #EFC671;
+    color: #F2F2F2;
+}
+
+.btn.red {
+    background-color: #ED5565;
+    color: #F2F2F2;
+}
+
+.btn {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.close.orders {
+    font-size: 25pt;
+    margin-top: 5px;
+    line-height: 0;
+}
+
+.close {
+    color: #333;
+    opacity: 1;
+}
+
+/* POP UP * /
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #fff;
+    color: #828282;
+    padding: 25px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 1;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.popup .popuptext .order-notif {
+    font-size: 18pt;
+}
+
+.popup .popuptext .order-detail {
+    font-size: 20pt;
+    color: #4A89DC;
+}
+
+.modal-title {
+    color: #828282;
+    font-size: 18pt;
+}
+
+.modal-body {
+    font-size: 20pt;
+    color: #4A89DC;
+}
+
+.footLine {
+    display: inline-block;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}

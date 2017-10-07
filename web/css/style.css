@@ -1,0 +1,25 @@
+.thumbnail {
+    width: 100%;
+    height: 375px;
+    overflow: hidden;
+}
+
+.thumbnail img{
+    width: 340px;
+}
+
+.modal {
+    white-space: pre-wrap;
+}
+
+#ingrList, #dirList {
+    white-space: pre-wrap;
+}
+
+#specificRecipe {
+    padding-bottom: 30px;
+}
+
+.image-wrapper {
+    height: 17em;
+}

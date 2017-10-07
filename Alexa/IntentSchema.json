@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "orderNumber",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ],
+      "intent": "StartOrderIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "orderNumber",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ],
+      "intent": "CompleteOrderIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "orderNumber",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ],
+      "intent": "DeleteOrderIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "orderNumber",
+          "type": "LIST_OF_NUMBERS"
+        }
+      ],
+      "intent": "UndoOrderIntent"
+    },
+    {
+      "intent": "QueueSummaryIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
